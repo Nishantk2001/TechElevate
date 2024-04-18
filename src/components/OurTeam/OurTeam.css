@@ -1,0 +1,129 @@
+.ourteam {
+  margin: 40px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.team-item {
+  background: #f4f5f6;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 8px 8px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.team-item:hover {
+  background: #212ea0;
+  color: white;
+}
+
+.team-item h3 {
+  margin: 10px 0 1px 0 !important;
+  color: #454545;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+}
+
+.section-subtitle {
+  white-space: pre-line;
+}
+
+.team-item:hover h3 {
+  color: #ddd;
+}
+
+.team-info {
+  display: block;
+  margin-bottom: 0;
+}
+
+.team-info p {
+  color: #acacac;
+  font-style: italic;
+}
+
+.team-info::after {
+  background: #008aff;
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  width: 50px;
+  height: 3px;
+}
+
+.team-img {
+  max-width: 140px;
+  padding: 6px 6px;
+  background-color: #dedede;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+ul.team-icon {
+  margin-top: 25px;
+}
+
+ul.team-icon li {
+  display: inline-block;
+  margin: 0 3px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+ul.team-icon li a {
+  margin: 0;
+  display: inline-block;
+  padding: 8px 8px;
+  width: 34px;
+  height: 34px;
+  font-size: 18px;
+  line-height: 18px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #000f38;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+ul.team-icon li a.linkedin .github .facebook .insta {
+  background-color: #fff;
+}
+
+/* ul.team-icon li a{
+  background-color: #c92228;
+}
+
+ul.team-icon li a.{
+  background-color: #3b5998;
+}
+
+ul.team-icon li a.insta {
+  background-color: #ea4c89;
+} */
+
+.team-icon li a i:hover {
+  color: #201658;
+  transition: transform 0.3s ease;
+  /* transform: translateY(-5px); */
+  transform: scale(0.9);
+}
+@media (max-width: 650px) {
+  .ourteam {
+    flex-direction: column;
+  }
+}
