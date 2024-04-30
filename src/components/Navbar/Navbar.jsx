@@ -68,7 +68,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            to='mySwiper'
+            to='testimonials'
             smooth={true}
             offset={-260}
             duration={500}>

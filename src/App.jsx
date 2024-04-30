@@ -12,7 +12,7 @@ import Footer from './components/Footer/Footer';
 import { BrowserRouter } from 'react-router-dom';
 import VideoPlayer from './components/VideoPlayer/VideoPlayer';
 import OurTeam from './components/OurTeam/OurTeam';
-import Team from './components/Team/Team';
+// import Team from './components/Team/Team';
 import Services from './components/Services/Services';
 
 const App = () => {
@@ -42,8 +42,8 @@ const App = () => {
             subtitle='Testimonials'
             title='What Student Says'
           />
-          <Team />
-          {/* <Testimonials /> */}
+          {/* <Team /> */}
+          <Testimonials />
 
           <Title
             subtitle='Contact us'
